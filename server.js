@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 // Oddiy GET request
-app.get("/", (req, res) => {
+app.get("/docker", (req, res) => {
     res.send("Updated, bu oddiy GET request!");
 });
 
